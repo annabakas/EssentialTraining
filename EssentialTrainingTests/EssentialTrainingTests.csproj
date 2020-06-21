@@ -49,6 +49,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AwesomeSauce.cs" />
+    <Compile Include="AwesomeSauceTest.cs" />
     <Compile Include="SimpleArray.cs" />
     <Compile Include="SimpleArrayTest.cs" />
     <Compile Include="UnitTest1.cs" />

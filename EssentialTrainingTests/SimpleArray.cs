@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace EssentialTrainingTests
 {
-    class SimpleArray
+    public class SimpleArray
     {
         public string[] groceryList;
 
         public SimpleArray()
         {
-            groceryList = new string[4]; { "Bread", "Milk", "Eggs", "Cheese"};
+            groceryList = new string[4] { "Bread", "Milk", "Eggs", "Cheese"};
         }
 
         public override string ToString()
